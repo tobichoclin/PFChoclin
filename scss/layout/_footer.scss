@@ -1,0 +1,53 @@
+/* footer */
+.navbar-footer-mia{
+    background-color: $negro;
+    @extend %texto1;
+    color:  $celeste;
+    @include borde(3px, 0, 0, 0, $cyan, solid, 0);
+    @extend %centradoTotal;
+    justify-content: flex-end !important;
+}
+.icono{
+    font-size: nth($fuentes, 5);
+    color: $celeste;
+    @include mobile{
+        @include texto18;
+    }
+}
+.icono:hover{
+    color: $blanco;
+}
+.icono2{
+    font-size: nth($fuentes, 5);
+    color: $gris;
+}
+.nav-item-mio{
+    @include margen(0, 50px, 0, 0);
+}
+.derechos{
+    color: $celeste;
+    font-size: nth($fuentes, 1);
+    @include margen(20px, 0, 0, 0);
+    @include mobile{
+        @include margen(20px,0,0,0);  
+    }
+}
+.redes{
+    align-items: center;
+}
+.redes2{
+    @include margen(0,0,0,40%);
+    @include mobile{
+        @include margen(0,0,10px,0);
+        display: flex;
+        justify-content: center;
+        align-content: start;
+    }
+}
+.elemento{
+    @include pad(0,0,0,40px);
+    @include mobile{
+        @include margen(0,25px,0,0);
+        @include pad(0,0,0,0);
+    }
+}

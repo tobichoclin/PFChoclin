@@ -1,0 +1,138 @@
+/* index */
+body{
+    background-color: $blanco;
+}
+.titulo{
+    @extend %texto1;
+    font-size: nth($fuentes, 6);
+    @extend %centradoHorizontal;
+    color: $gris;
+    @include mobile{
+        @include centrarTexto;
+        @include texto30;
+    }
+}
+.texto{
+    @extend %texto2;
+    line-height: 2;
+    font-size: nth($fuentes, 3);
+    @include pad(0, 20px, 0, 60px);
+    @extend %centradoHorizontal;
+    color: $gris;
+    @include mobile{
+        @include centrarTexto;
+        @include texto18;
+        @include pad(0,0,0,0);
+    }
+}
+.carrousel{
+    @include altoAncho(279px, 500px);
+    @include margen(0, 0, 0, 48px);
+    @include mobile{
+        @include altoAncho(auto, 350px);
+    }
+}
+.testimonios{
+    @extend %centradoTotal;
+    @include mobile{
+        @extend %centradoTotal;
+    }
+}
+#imagen_fondo{
+    background-image: url(../assets/imagenes/mapaa.jpg);
+    @extend %imagenFondo;
+    height: 550px;
+    @extend %centradoTotal;
+    @include mobile{
+        background-image: url(../../assets/imagenes/mapa-mobile.jpg);
+        @include centradoTotal;
+    }
+}
+#imagen_fondo:before {
+    content: "";
+    position: absolute;
+    background-image: url(../../assets/imagenes/gradiente.jpg);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.6;
+  }
+#titulo-fondo{
+    @extend %texto1;
+    color: $celeste;
+    font-size: nth($fuentes, 7);
+    position: relative;
+    @include mobile{
+        @include texto45;
+        @include centrarTexto;
+    }
+}
+.alto500{
+    height: 500px;
+    @include mobile{
+        @include altoAncho(250px, 100%);
+        
+    }
+}
+.padding50{
+    @include pad(50px, 50px, 50px, 50px);
+    @include mobile{
+        @include pad(50px, 50px, 20px, 50px);
+    }
+}
+.centrar-texto{
+    @extend %centrarTexto;
+}
+.space-ar{
+    display: flex;
+    justify-content: space-evenly;
+    @include pad(0, 35px, 0, 35px);
+    @include mobile{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+.margen-inferior{
+    @include margen(0, 0, 50px, 0);
+    @include mobile{
+        @include margen(0,0,30px,0);
+    }
+}
+.centrar{
+    @extend %centradoHorizontal;
+}
+.escudos-mobile{
+    @include mobile{
+        @include altoAncho(50px, auto);
+    }
+}
+.franja{
+    background-image: url(../../assets/imagenes/Franja.jpg);
+    height: 350px;
+    @include mobile{
+        height: 200px;
+    }
+}
+.main-index{
+    background-color: $negro;
+}
+#img-ind-1{
+    @include altoAncho(620px, 420px);
+    @include margen(0,0,0,120px);
+    @include mobile{
+        @include altoAncho(auto, 400px);
+        @include margen(20px,0,0,0);
+    }
+}
+#img-ind-2{
+    @include altoAncho(527px, auto);
+    @include margen(0,0,0,120px);
+    @include mobile{
+        @include altoAncho(auto, 400px);
+        @include margen(20px,0,0,0);
+    }
+}
+.tex-ind{
+    color: $celeste;
+}

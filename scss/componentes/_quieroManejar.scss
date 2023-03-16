@@ -1,0 +1,46 @@
+/* quiero manejar */
+.encabezado-qm {
+  @include margen(30px, 100px, 30px, 125px);
+  @include mobile{
+    @include margen(0,0,0,0);
+  }
+}
+.texto-encabezado {
+  @extend %texto2;
+  color: $gris;
+  font-size: nth($fuentes, 3);
+  line-height: 2;
+  @include mobile {
+    @include texto18;
+    @include centrarTexto;
+  }
+}
+.sin-subrayado {
+  text-decoration: none;
+}
+.img-tarjeta {
+  object-fit: cover;
+  @extend %imagenFondo;
+  height: 200px;
+}
+.titulo-qm {
+  @extend %texto1;
+  color: $gris;
+  font-size: nth($fuentes, 6);
+  @include mobile {
+    @include texto35;
+  }
+}
+.texto-qm {
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 2;
+  color: $gris;
+  font-size: nth($fuentes, 2);
+}
+.tarjeta {
+  transition: all 400ms ease;
+}
+.tarjeta:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
