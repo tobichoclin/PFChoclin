@@ -3,8 +3,8 @@
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
-.titulo-equipos{
-  @include mobile{
+.titulo-equipos {
+  @include mobile {
     font-size: 50px !important;
   }
 }
@@ -15,71 +15,74 @@
 }
 .boca {
   background-image: map-get($fondoEquipos, img-boca) !important;
-  @include mobile{
+  @include mobile {
     background-image: map-get($fondoEquipos, img-boca-mobile) !important;
   }
 }
 .river {
   background-image: map-get($fondoEquipos, img-river) !important;
-  @include mobile{
+  @include mobile {
     background-image: map-get($fondoEquipos, img-river-mobile) !important;
   }
 }
 .independiente {
   background-image: map-get($fondoEquipos, img-independiente) !important;
-  @include mobile{
-    background-image: map-get($fondoEquipos, img-independiente-mobile) !important;
+  @include mobile {
+    background-image: map-get(
+      $fondoEquipos,
+      img-independiente-mobile
+    ) !important;
   }
 }
 .racing {
   background-image: map-get($fondoEquipos, img-racing) !important;
-  @include mobile{
+  @include mobile {
     background-image: map-get($fondoEquipos, img-racing-mobile) !important;
   }
 }
 .sanLorenzo {
-  background-image: map-get($fondoEquipos, img-sanLorenzo)!important;
-  @include mobile{
+  background-image: map-get($fondoEquipos, img-sanLorenzo) !important;
+  @include mobile {
     background-image: map-get($fondoEquipos, img-sanLorenzo-mobile) !important;
   }
 }
-.orden-conductores{
+.orden-conductores {
   display: flex;
-  justify-content: space-between;  
-  @include pad(0,10px,0,10px);
-  @include mobile{
+  justify-content: space-between;
+  @include pad(0, 10px, 0, 10px);
+  @include mobile {
     justify-content: center;
   }
 }
-.estrellas{
-    @include altoAncho(auto, 100px);
+.estrellas {
+  @include altoAncho(auto, 100px);
 }
-.barra{
-  @include pad(0,10px,0,10px);
+.barra {
+  @include pad(0, 10px, 0, 10px);
 }
-.texto-conductor{
+.texto-conductor {
   @extend %texto2;
   line-height: 2;
   font-size: nth($fuentes, 2);
   color: $gris;
-  @include mobile{
-     @include centrarTexto;
-     @include texto15;
+  @include mobile {
+    @include centrarTexto;
+    @include texto15;
   }
 }
-.boton-1{
+.boton-1 {
   background-color: $gris;
 }
-.boton-1:hover{
+.boton-1:hover {
   background-color: #575656;
 }
-#boton-2{
+#boton-2 {
   background-color: $cyan;
-  @include borde(1px,1px,1px,1px,$cyan,solid,5px);
+  @include borde(1px, 1px, 1px, 1px, $cyan, solid, 5px);
 }
-#boton-2:hover{
+#boton-2:hover {
   background-color: #0b6f72;
 }
-.popup-header{
+.popup-header {
   background-color: $negro;
 }

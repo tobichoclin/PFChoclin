@@ -1,34 +1,34 @@
 /* header */
-.img-navbar{
-    @include altoAncho(50px, auto);
-    @include margen(0, 0, 0, 60px);
-    @include mobile{
-        @include margen(0,0,0, 10px);
-    }
+.img-navbar {
+  @include altoAncho(50px, auto);
+  @include margen(0, 0, 0, 60px);
+  @include mobile {
+    @include margen(0, 0, 0, 10px);
+  }
 }
-.navbar-mia{
-    display: flex;
-    @include borde(0, 0, 3px, 0, $cyan, solid, 0px);
-    background-color: $negro;
+.navbar-mia {
+  display: flex;
+  @include borde(0, 0, 3px, 0, $cyan, solid, 0px);
+  background-color: $negro;
 }
-.navlink-mio{
-    @extend %texto1;
-    color: $celeste;
-    text-decoration: none;
-    font-size: nth($fuentes, 4);
-    @include mobile{
-        @include texto18;
-    }
+.navlink-mio {
+  @extend %texto1;
+  color: $celeste;
+  text-decoration: none;
+  font-size: nth($fuentes, 4);
+  @include mobile {
+    @include texto18;
+  }
 }
-.navlink-mio:hover{
-    color: $blanco;
+.navlink-mio:hover {
+  color: $blanco;
 }
-.botones-navbar{
-    @include margen(0,0,0,400px);
-    @include mobile{
-        @include margen(0,0,0,0);
-    }
+.botones-navbar {
+  @include margen(0, 0, 0, 400px);
+  @include mobile {
+    @include margen(0, 0, 0, 0);
+  }
 }
-#boton-header{
-    color: $celeste;
+#boton-header {
+  color: $celeste;
 }

@@ -39,13 +39,13 @@
 
 /* footer */
 .navbar-footer-mia {
-  background-color: #2C3333;
-  color: #CBE4DE;
+  background-color: #2c3333;
+  color: #cbe4de;
   border-bottom: 0;
   border-top: 3px;
   border-left: 0;
   border-right: 0;
-  border-color: #0E8388;
+  border-color: #0e8388;
   border-style: solid;
   border-radius: 0;
   justify-content: flex-end !important;
@@ -53,7 +53,7 @@
 
 .icono {
   font-size: 30px;
-  color: #CBE4DE;
+  color: #cbe4de;
 }
 @media screen and (max-width: 576px) {
   .icono {
@@ -78,7 +78,7 @@
 }
 
 .derechos {
-  color: #CBE4DE;
+  color: #cbe4de;
   font-size: 15px;
   margin-left: 0;
   margin-right: 0;
@@ -159,14 +159,14 @@
   border-top: 0;
   border-left: 0;
   border-right: 0;
-  border-color: #0E8388;
+  border-color: #0e8388;
   border-style: solid;
   border-radius: 0px;
-  background-color: #2C3333;
+  background-color: #2c3333;
 }
 
 .navlink-mio {
-  color: #CBE4DE;
+  color: #cbe4de;
   text-decoration: none;
   font-size: 25px;
 }
@@ -196,12 +196,12 @@
 }
 
 #boton-header {
-  color: #CBE4DE;
+  color: #cbe4de;
 }
 
 /*** ESTILOS BOTÓN GROW ELLIPSE ***/
 .ov-btn-grow-ellipse {
-  background: #2E4F4F; /* color de fondo */
+  background: #2e4f4f; /* color de fondo */
   color: #f7fbfc; /* color de fuente */
   padding: 16px 20px;
   border-radius: 30px; /* redondear bordes */
@@ -221,7 +221,7 @@
 
 .ov-btn-grow-ellipse::after {
   content: "";
-  background: #0E8388; /* color de fondo hover */
+  background: #0e8388; /* color de fondo hover */
   position: absolute;
   z-index: -1;
   padding: 16px 20px;
@@ -316,7 +316,7 @@ body {
 }
 
 #titulo-fondo {
-  color: #CBE4DE;
+  color: #cbe4de;
   font-size: 100px;
   position: relative;
 }
@@ -400,7 +400,7 @@ body {
 }
 
 .main-index {
-  background-color: #2C3333;
+  background-color: #2c3333;
 }
 
 #img-ind-1 {
@@ -442,7 +442,7 @@ body {
 }
 
 .tex-ind {
-  color: #CBE4DE;
+  color: #cbe4de;
 }
 
 /* como funciona */
@@ -550,8 +550,8 @@ body {
 }
 
 .encabezado-contacto {
-  background-color: #2C3333;
-  color: #CBE4DE !important;
+  background-color: #2c3333;
+  color: #cbe4de !important;
   height: 120px;
   width: 100%;
   align-items: center;
@@ -642,47 +642,47 @@ body {
 }
 
 .boca {
-  background-image: url(../assets/imagenes/foto_boca.jpg) !important;
+  background-image: url(../../assets/imagenes/foto_boca.jpg) !important;
 }
 @media screen and (max-width: 576px) {
   .boca {
-    background-image: url(../assets/imagenes/boca-mobile.jpg) !important;
+    background-image: url(../../assets/imagenes/boca-mobile.jpg) !important;
   }
 }
 
 .river {
-  background-image: url(../assets/imagenes/foto_river.jpg) !important;
+  background-image: url(../../assets/imagenes/foto_river.jpg) !important;
 }
 @media screen and (max-width: 576px) {
   .river {
-    background-image: url(../assets/imagenes/river-mobile.jpg) !important;
+    background-image: url(../../assets/imagenes/river-mobile.jpg) !important;
   }
 }
 
 .independiente {
-  background-image: url(../assets/imagenes/foto_independiente.jpg) !important;
+  background-image: url(../../assets/imagenes/foto_independiente.jpg) !important;
 }
 @media screen and (max-width: 576px) {
   .independiente {
-    background-image: url(../assets/imagenes/independiente-mobile.jpg) !important;
+    background-image: url(../../assets/imagenes/independiente-mobile.jpg) !important;
   }
 }
 
 .racing {
-  background-image: url(../assets/imagenes/foto_racing.jpg) !important;
+  background-image: url(../../assets/imagenes/foto_racing.jpg) !important;
 }
 @media screen and (max-width: 576px) {
   .racing {
-    background-image: url(../assets/imagenes/racing-mobile.jpg) !important;
+    background-image: url(../../assets/imagenes/racing-mobile.jpg) !important;
   }
 }
 
 .sanLorenzo {
-  background-image: url(../assets/imagenes/foto_sanLorenzo.jpg) !important;
+  background-image: url(../../assets/imagenes/foto_sanLorenzo.jpg) !important;
 }
 @media screen and (max-width: 576px) {
   .sanLorenzo {
-    background-image: url(../assets/imagenes/sanLorenzo-mobile.jpg) !important;
+    background-image: url(../../assets/imagenes/sanLorenzo-mobile.jpg) !important;
   }
 }
 
@@ -733,12 +733,12 @@ body {
 }
 
 #boton-2 {
-  background-color: #0E8388;
+  background-color: #0e8388;
   border-bottom: 1px;
   border-top: 1px;
   border-left: 1px;
   border-right: 1px;
-  border-color: #0E8388;
+  border-color: #0e8388;
   border-style: solid;
   border-radius: 5px;
 }
@@ -748,7 +748,7 @@ body {
 }
 
 .popup-header {
-  background-color: #2C3333;
+  background-color: #2c3333;
 }
 
 /*# sourceMappingURL=style.css.map */

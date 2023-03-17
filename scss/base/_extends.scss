@@ -1,46 +1,46 @@
-%centradoTotal{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+%centradoTotal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-%centradoHorizontal{
-    display: flex;
-    justify-content: center;
+%centradoHorizontal {
+  display: flex;
+  justify-content: center;
 }
-%centradoVertical{
-    display: flex;
-    align-items: center;
+%centradoVertical {
+  display: flex;
+  align-items: center;
 }
-%borde{
-    border: solid 3px #636363;
-    border-radius: 5px;
+%borde {
+  border: solid 3px #636363;
+  border-radius: 5px;
 }
-%bordeSinRadio{
-    border: solid 3px #636363;
+%bordeSinRadio {
+  border: solid 3px #636363;
 }
-%bordeFinito{
-    border: solid 1px #769fcd;
-    border-radius: 5px;
+%bordeFinito {
+  border: solid 1px #769fcd;
+  border-radius: 5px;
 }
-%centrarTexto{
-    text-align: center;
+%centrarTexto {
+  text-align: center;
 }
-%texto1{
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: bold;
+%texto1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
 }
-%texto2{
-    font-family: "Sofia Sans", sans-serif;
+%texto2 {
+  font-family: "Sofia Sans", sans-serif;
 }
-%imagenFondo{
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    position: relative;
+%imagenFondo {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
 }
-%imagenCircular{
-    border-top-left-radius: 50% 50%;
-    border-top-right-radius: 50% 50%;
-    border-bottom-right-radius: 50% 50%;
-    border-bottom-left-radius: 50% 50%;
+%imagenCircular {
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
 }

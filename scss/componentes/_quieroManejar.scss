@@ -1,8 +1,8 @@
 /* quiero manejar */
 .encabezado-qm {
   @include margen(30px, 100px, 30px, 125px);
-  @include mobile{
-    @include margen(0,0,0,0);
+  @include mobile {
+    @include margen(0, 0, 0, 0);
   }
 }
 .texto-encabezado {

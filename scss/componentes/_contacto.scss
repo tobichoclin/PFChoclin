@@ -1,45 +1,45 @@
-.texto-form{
-    @extend %texto1;
-    color: $gris !important;
-    @include mobile{
-        @include texto18;
-    }
+.texto-form {
+  @extend %texto1;
+  color: $gris !important;
+  @include mobile {
+    @include texto18;
+  }
 }
-.imgcontacto{
-    background-image: url(../assets/imagenes/contacto2.jpg) !important;
-    height: 800px !important;
-    @include mobile{
-        @include altoAncho(2000px, 100%);
-    }
+.imgcontacto {
+  background-image: url(../assets/imagenes/contacto2.jpg) !important;
+  height: 800px !important;
+  @include mobile {
+    @include altoAncho(2000px, 100%);
+  }
 }
-.color-cont{
-    position: relative;
-    color: $blanco;
+.color-cont {
+  position: relative;
+  color: $blanco;
 }
-.titulo-contacto{
-    @extend %texto1;
-    font-size: nth($fuentes, 5);
-    @extend %centradoHorizontal;
-    color: $gris;
-    @include mobile{
-        @include centrarTexto;
-        @include texto25;
-    }
+.titulo-contacto {
+  @extend %texto1;
+  font-size: nth($fuentes, 5);
+  @extend %centradoHorizontal;
+  color: $gris;
+  @include mobile {
+    @include centrarTexto;
+    @include texto25;
+  }
 }
-.tarjeta-contacto{
-    background-color: $blanco;
-    position: relative;
-    display: flex;
-    justify-content: start;
-    @include margen(0,0,0,100px);
-    @include altoAncho(600px,auto);
-    @include mobile{
-        @include margen(0,0,0,0);
-    }
+.tarjeta-contacto {
+  background-color: $blanco;
+  position: relative;
+  display: flex;
+  justify-content: start;
+  @include margen(0, 0, 0, 100px);
+  @include altoAncho(600px, auto);
+  @include mobile {
+    @include margen(0, 0, 0, 0);
+  }
 }
-.encabezado-contacto{
-    background-color: $negro;
-    color: $celeste !important;
-    @include altoAncho(120px, 100%);
-    align-items: center;
+.encabezado-contacto {
+  background-color: $negro;
+  color: $celeste !important;
+  @include altoAncho(120px, 100%);
+  align-items: center;
 }
