@@ -642,47 +642,47 @@ body {
 }
 
 .boca {
-  background-image: url(../../assets/imagenes/foto_boca.jpg) !important;
+  background-image: url(../assets/imagenes/foto_boca.jpg) !important;
 }
 @media screen and (max-width: 576px) {
   .boca {
-    background-image: url(../../assets/imagenes/boca-mobile.jpg) !important;
+    background-image: url(../assets/imagenes/boca-mobile.jpg) !important;
   }
 }
 
 .river {
-  background-image: url(../../assets/imagenes/foto_river.jpg) !important;
+  background-image: url(../assets/imagenes/foto_river.jpg) !important;
 }
 @media screen and (max-width: 576px) {
   .river {
-    background-image: url(../../assets/imagenes/river-mobile.jpg) !important;
+    background-image: url(../assets/imagenes/river-mobile.jpg) !important;
   }
 }
 
 .independiente {
-  background-image: url(../../assets/imagenes/foto_independiente.jpg) !important;
+  background-image: url(../assets/imagenes/foto_independiente.jpg) !important;
 }
 @media screen and (max-width: 576px) {
   .independiente {
-    background-image: url(../../assets/imagenes/independiente-mobile.jpg) !important;
+    background-image: url(../assets/imagenes/independiente-mobile.jpg) !important;
   }
 }
 
 .racing {
-  background-image: url(../../assets/imagenes/foto_racing.jpg) !important;
+  background-image: url(../assets/imagenes/foto_racing.jpg) !important;
 }
 @media screen and (max-width: 576px) {
   .racing {
-    background-image: url(../../assets/imagenes/racing-mobile.jpg) !important;
+    background-image: url(../assets/imagenes/racing-mobile.jpg) !important;
   }
 }
 
 .sanLorenzo {
-  background-image: url(../../assets/imagenes/foto_sanLorenzo.jpg) !important;
+  background-image: url(../assets/imagenes/foto_sanLorenzo.jpg) !important;
 }
 @media screen and (max-width: 576px) {
   .sanLorenzo {
-    background-image: url(../../assets/imagenes/sanLorenzo-mobile.jpg) !important;
+    background-image: url(../assets/imagenes/sanLorenzo-mobile.jpg) !important;
   }
 }
 
