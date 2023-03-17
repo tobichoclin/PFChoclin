@@ -297,7 +297,7 @@ body {
 }
 @media screen and (max-width: 576px) {
   #imagen_fondo {
-    background-image: url(../../assets/imagenes/mapa-mobile.jpg);
+    background-image: url(../assets/imagenes/mapa-mobile.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -307,7 +307,7 @@ body {
 #imagen_fondo:before {
   content: "";
   position: absolute;
-  background-image: url(../../assets/imagenes/gradiente.jpg);
+  background-image: url(../assets/imagenes/gradiente.jpg);
   top: 0;
   bottom: 0;
   left: 0;
@@ -390,7 +390,7 @@ body {
 }
 
 .franja {
-  background-image: url(../../assets/imagenes/Franja.jpg);
+  background-image: url(../assets/imagenes/franja.jpg);
   height: 350px;
 }
 @media screen and (max-width: 576px) {

@@ -44,14 +44,14 @@ body{
     height: 550px;
     @extend %centradoTotal;
     @include mobile{
-        background-image: url(../../assets/imagenes/mapa-mobile.jpg);
+        background-image: url(../assets/imagenes/mapa-mobile.jpg);
         @include centradoTotal;
     }
 }
 #imagen_fondo:before {
     content: "";
     position: absolute;
-    background-image: url(../../assets/imagenes/gradiente.jpg);
+    background-image: url(../assets/imagenes/gradiente.jpg);
     top: 0;
     bottom: 0;
     left: 0;
@@ -108,7 +108,7 @@ body{
     }
 }
 .franja{
-    background-image: url(../../assets/imagenes/Franja.jpg);
+    background-image: url(../assets/imagenes/franja.jpg);
     height: 350px;
     @include mobile{
         height: 200px;

@@ -20,7 +20,7 @@
 
 <body>
   <header class="col-12 navbar-mia">
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="../index.html"><img class="img-navbar" src="../assets/imagenes/logo-header.png"
             alt="logo" /></a>
@@ -126,7 +126,7 @@
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header popup-header">
-                <h1 class="modal-title fs-5 titulo" style="color: #CBE4DE;" id="exampleModalLabel">Contactar conductor</h1>
+                <h1 class="modal-title fs-5 titulo" style="color: #CBE4DE;" id="exampleModalLabel">Conductores</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
@@ -136,8 +136,12 @@
                     <input type="text" class="form-control" id="recipient-name">
                   </div>
                   <div class="mb-3">
-                    <label for="message-text" class="col-form-label texto-conductor">Mensaje:</label>
-                    <textarea class="form-control" id="message-text"></textarea>
+                    <label for="recipient-name" class="col-form-label texto-conductor">Edad:</label>
+                    <input type="text" class="form-control" id="recipient-name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label texto-conductor">Dirección:</label>
+                    <input type="text" class="form-control" id="recipient-name">
                   </div>
                 </form>
               </div>
@@ -170,7 +174,7 @@
             abajo.
           </p>
         </div>
-        <div class="card-body centrar">
+        <div class="card-body centrar" style="margin-bottom: 30px;">
           <a href="" class="card-link ov-btn-grow-ellipse" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">¡QUIERO MANEJAR!</a>
         </div>
       </div>
